@@ -1,0 +1,11 @@
+[package]
+name = "erasure-app"
+version = "0.1.0"
+edition = "2024"
+description = "A simple disk erasure utility"
+
+[dependencies]
+serde.workspace = true
+clap.workspace = true
+erasure-core.workspace = true
+toml.workspace = true

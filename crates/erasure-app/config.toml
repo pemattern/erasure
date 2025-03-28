@@ -1,0 +1,10 @@
+[erasure]
+standard = "aperiodic-random-overwrite"
+passes = 1
+
+[[user-data]]
+name = "field 1"
+
+[[user-data]]
+name = "field 2"
+regex = ".*"
