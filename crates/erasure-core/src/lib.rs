@@ -1,5 +1,7 @@
 use serde::Deserialize;
 
+pub mod hardware;
+
 #[derive(Debug, Default, Deserialize)]
 #[serde(rename_all = "kebab-case")]
 pub enum ErasureStandard {
